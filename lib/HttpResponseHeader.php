@@ -2,7 +2,7 @@
 namespace phputil;
 
 /**
- *  Common HTTP response headers.
+ *  Common HTTP response headers. (UNDER CONSTRUCTION!)
  *  
  *  @author	Thiago Delgado Pinto
  *  
