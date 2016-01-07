@@ -1,6 +1,6 @@
 # HTTP
 
-HTTP status' codes and texts.
+HTTP status' codes and texts. We recommend you using with the [PSR-7](http://www.php-fig.org/psr/psr-7/).
 
 Current [version](http://semver.org/): `1.0`
 
