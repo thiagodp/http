@@ -1,6 +1,6 @@
 # HTTP
 
-Http related classes.
+HTTP status' codes and texts.
 
 Current [version](http://semver.org/): `1.0`
 
