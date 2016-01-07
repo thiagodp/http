@@ -10,7 +10,7 @@ class HttpStatusText {
 
 	// 1xx (informational)
 	
-	const CONTINUE													= 'Continue';
+	const CONTINUE_													= 'Continue';
 	const SWITCHING_PROTOCOLS										= 'Switching Protocols';
 	const PROCESSING												= 'Processing'; // RFC2518
 	

@@ -10,7 +10,7 @@ class HttpStatus {
 
 	// 1xx (informational)
 	
-	const CONTINUE													= 100;
+	const CONTINUE_													= 100;
 	const SWITCHING_PROTOCOLS										= 101;
 	const PROCESSING												= 102; // RFC2518
 	
