@@ -4,8 +4,7 @@ namespace phputil;
 /**
  *  Http status text.
  *  
- *  @author		Thiago Delgado Pinto
- *  @version	1.0
+ *  @author Thiago Delgado Pinto
  */
 class HttpStatusText {
 

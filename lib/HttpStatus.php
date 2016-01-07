@@ -4,8 +4,7 @@ namespace phputil;
 /**
  *  Http status.
  *  
- *  @author		Thiago Delgado Pinto
- *  @version	1.0
+ *  @author Thiago Delgado Pinto
  */
 class HttpStatus {
 
@@ -64,7 +63,7 @@ class HttpStatus {
 	const UNPROCESSABLE_ENTITY										= 422; // RFC4918
 	const LOCKED													= 423; // RFC4918
 	const FAILED_DEPENDENCY											= 424; // RFC4918
-	const RESERVED_FOR_WEBDAV_ADVANCED_COLLECTIONS_EXPIRED_PROPOSAL	= 425; // RFC2817
+	const RESERVED_FOR_WEBDAV_ADVANCED_COLLECTIONS					= 425; // RFC2817
 	const UPGRADE_REQUIRED											= 426; // RFC2817
 	const PRECONDITION_REQUIRED										= 428; // RFC6585
 	const TOO_MANY_REQUESTS											= 429; // RFC6585
@@ -79,7 +78,7 @@ class HttpStatus {
 	const SERVICE_UNAVAILABLE										= 503;
 	const GATEWAY_TIMEOUT											= 504;
 	const VERSION_NOT_SUPPORTED										= 505;
-	const VARIANT_ALSO_NEGOTIATES_EXPERIMENTAL						= 506; // RFC2295
+	const VARIANT_ALSO_NEGOTIATES									= 506; // RFC2295
 	const INSUFFICIENT_STORAGE										= 507; // RFC4918
 	const LOOP_DETECTED												= 508; // RFC5842
 	const NOT_EXTENDED												= 510; // RFC2774
