@@ -9,13 +9,13 @@ namespace phputil;
  */
 class HttpStatusText {
 
-	// 1xx
+	// 1xx (informational)
 	
 	const CONTINUE													= 'Continue';
 	const SWITCHING_PROTOCOLS										= 'Switching Protocols';
 	const PROCESSING												= 'Processing'; // RFC2518
 	
-	// 2xx
+	// 2xx (successful)
 	
 	const OK														= 'OK';
 	const CREATED													= 'Created';
@@ -28,7 +28,7 @@ class HttpStatusText {
 	const ALREADY_REPORTED											= 'Already Reported'; // RFC5842
 	const IM_USED													= 'IM Used'; // RFC3229
 	
-	// 3xx
+	// 3xx (redirection)
 	
 	const MULTIPLE_CHOICES											= 'Multiple Choices';
 	const MOVED_PERMANENTLY											= 'Moved Permanently';
@@ -40,7 +40,7 @@ class HttpStatusText {
 	const TEMPORARY_REDIRECT										= 'Temporary Redirect';
 	const PERMANENTLY_REDIRECT										= 'Permanent Redirect';  // RFC7238
 	
-	// 4xx
+	// 4xx (client error)
 	
 	const BAD_REQUEST												= 'Bad Request';
 	const UNAUTHORIZED												= 'Unauthorized';
@@ -55,23 +55,23 @@ class HttpStatusText {
 	const GONE														= 'Gone';
 	const LENGTH_REQUIRED											= 'Length Required';
 	const PRECONDITION_FAILED										= 'Precondition Failed';
-	const REQUEST_ENTITY_TOO_LARGE									= 'Entity Too Large';
-	const REQUEST_URI_TOO_LONG										= 'URI Too Long';
+	const REQUEST_ENTITY_TOO_LARGE									= 'Request Entity Too Large';
+	const REQUEST_URI_TOO_LONG										= 'Request URI Too Long';
 	const UNSUPPORTED_MEDIA_TYPE									= 'Unsupported Media Type';
-	const REQUESTED_RANGE_NOT_SATISFIABLE							= 'Range Not Satisfiable';
+	const REQUESTED_RANGE_NOT_SATISFIABLE							= 'Request Range Not Satisfiable';
 	const EXPECTATION_FAILED										= 'Expectation Failed';
 	const I_AM_A_TEAPOT												= 'I\'m a teapot'; // RFC2324
 	const UNPROCESSABLE_ENTITY										= 'Unprocessable Entity'; // RFC4918
 	const LOCKED													= 'Locked'; // RFC4918
 	const FAILED_DEPENDENCY											= 'Failed Dependency'; // RFC4918
-	const RESERVED_FOR_WEBDAV_ADVANCED_COLLECTIONS_EXPIRED_PROPOSAL	= 'Reserved for WebDAV advanced collections expired proposal'; // RFC2817
+	const RESERVED_FOR_WEBDAV_ADVANCED_COLLECTIONS					= 'Reserved for WebDAV Advanced Collections'; // RFC2817
 	const UPGRADE_REQUIRED											= 'Upgrade Required'; // RFC2817
 	const PRECONDITION_REQUIRED										= 'Precondition Required'; // RFC6585
 	const TOO_MANY_REQUESTS											= 'Too Many Requests'; // RFC6585
 	const REQUEST_HEADER_FIELDS_TOO_LARGE							= 'Request Header Fields Too Large'; // RFC6585
 	const UNAVAILABLE												= 'Unavailable'; // RFC to appear
 	
-	// 5xx
+	// 5xx (server error)
 	
 	const INTERNAL_SERVER_ERROR										= 'Internal Server Error';
 	const NOT_IMPLEMENTED											= 'Not Implemented';
@@ -79,7 +79,7 @@ class HttpStatusText {
 	const SERVICE_UNAVAILABLE										= 'Service Unavailable';
 	const GATEWAY_TIMEOUT											= 'Gateway Timeout';
 	const VERSION_NOT_SUPPORTED										= 'HTTP Version Not Supported';
-	const VARIANT_ALSO_NEGOTIATES_EXPERIMENTAL						= 'Variant Also Negotiates (Experimental)'; // RFC2295
+	const VARIANT_ALSO_NEGOTIATES									= 'Variant Also Negotiates'; // RFC2295
 	const INSUFFICIENT_STORAGE										= 'Insufficient Storage'; // RFC4918
 	const LOOP_DETECTED												= 'Loop Detected'; // RFC5842
 	const NOT_EXTENDED												= 'Not Extended'; // RFC2774

@@ -9,13 +9,13 @@ namespace phputil;
  */
 class HttpStatus {
 
-	// 1xx
+	// 1xx (informational)
 	
 	const CONTINUE													= 100;
 	const SWITCHING_PROTOCOLS										= 101;
 	const PROCESSING												= 102; // RFC2518
 	
-	// 2xx
+	// 2xx (successful)
 	
 	const OK														= 200;
 	const CREATED													= 201;
@@ -28,7 +28,7 @@ class HttpStatus {
 	const ALREADY_REPORTED											= 208; // RFC5842
 	const IM_USED													= 226; // RFC3229
 	
-	// 3xx
+	// 3xx (redirection)
 	
 	const MULTIPLE_CHOICES											= 300;
 	const MOVED_PERMANENTLY											= 301;
@@ -40,7 +40,7 @@ class HttpStatus {
 	const TEMPORARY_REDIRECT										= 307;
 	const PERMANENTLY_REDIRECT										= 308;  // RFC7238
 	
-	// 4xx
+	// 4xx (client error)
 	
 	const BAD_REQUEST												= 400;
 	const UNAUTHORIZED												= 401;
@@ -71,7 +71,7 @@ class HttpStatus {
 	const REQUEST_HEADER_FIELDS_TOO_LARGE							= 431; // RFC6585
 	const UNAVAILABLE												= 451; // RFC to appear
 	
-	// 5xx
+	// 5xx (server error)
 	
 	const INTERNAL_SERVER_ERROR										= 500;
 	const NOT_IMPLEMENTED											= 501;
