@@ -1,0 +1,23 @@
+{
+	"name": "phputil/http",
+	"type": "library",
+	"description": "HTTP related classes",
+	"keywords": [ "http", "status", "const", "php" ],
+	"homepage": "http://github.com/thiagodp/http",
+	"license": "LGPL-3",
+	"authors": [ { "name": "Thiago Delgado Pinto" } ],
+	"support": {
+		"issues": "https://github.com/thiagodp/http/issues",
+		"source": "https://github.com/thiagodp/http"
+	},
+	"require": {
+		"php": ">=5.2.0"
+	},
+	"require-dev": {
+    },	
+	"suggest": {
+	},
+	"autoload": {
+		"psr-4": { "phputil\\": "lib/" }
+	}
+}
