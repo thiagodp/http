@@ -1,4 +1,5 @@
 <?php
+namespace phputil;
 
 /**
  *  Common HTTP response headers.
