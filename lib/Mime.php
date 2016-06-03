@@ -6,6 +6,7 @@ namespace phputil;
  *  
  *  @author	Thiago Delgado Pinto
  *  
+ *  @see	https://en.wikipedia.org/wiki/Media_type
  *  @see	http://www.iana.org/assignments/media-types/media-types.xhtml
  *  @see	http://www.sitepoint.com/web-foundations/mime-types-complete-list/
  */
@@ -64,6 +65,18 @@ class Mime {
 	const EXE			= 'application/octet-stream';
 	const STREAM		= 'application/octet-stream';
 	
+	// USEFUL STATIC METHODS __________________________________________________
+	
+	static function make( $mime, $param = null, $paramValue = null ) {
+		if ( null === $param || null === $paramValue ) {
+			return $mime;
+		}
+		return "$mime;$param=$paramValue";
+	}
+	
+	static function makeWithCharset( $mime, $charset ) {
+		return self::make( $mime, 'charset', $charset );
+	}
 }
 
 ?>
