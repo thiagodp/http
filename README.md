@@ -8,10 +8,10 @@ This library provides:
  * Common MIME types.
  * Common encoding/compression formats.
  
-We recommend you using with the [PSR-7](http://www.php-fig.org/psr/psr-7/).
+We recommend you using it with the [PSR-7](http://www.php-fig.org/psr/psr-7/).
 
 
-Current [version](http://semver.org/): `1.4`
+This project uses [semantic versioning](http://semver.org/). See [our releases](https://github.com/thiagodp/http/releases).
 
 Classes:
 
