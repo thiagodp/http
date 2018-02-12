@@ -4,7 +4,7 @@
 	"description": "HTTP related classes",
 	"keywords": [ "http", "status", "mime", "charset", "response", "php" ],
 	"homepage": "http://github.com/thiagodp/http",
-	"license": "LGPL-3",
+	"license": "LGPL-3.0-or-later",
 	"authors": [ { "name": "Thiago Delgado Pinto" } ],
 	"support": {
 		"issues": "https://github.com/thiagodp/http/issues",
